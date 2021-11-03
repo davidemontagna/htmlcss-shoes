@@ -10,10 +10,21 @@ section{
     position: relative;
 }
 
-#red{
-    background-color: #ff0000;
+#red, #green, #yellow{
     width: 100%;
     height: 100%;
+}
+
+#red{
+    background-color: #ff0000;
+}
+
+#green{
+    background-color: #008000;
+}
+
+#yellow{
+    background-color: #ff0;
 }
 
 
@@ -29,5 +40,8 @@ section{
     text-align: center;
     font-size: 70px;
     text-transform: uppercase;
+}
 
+.txt-green h2{
+    color: green;
 }
