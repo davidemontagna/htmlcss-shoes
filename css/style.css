@@ -73,6 +73,10 @@ section{
     cursor: pointer;
 }
 
+.circle:hover{
+    box-shadow: 0px 8px 10px grey;
+}
+
 .numbers a{
     font-size: 80px;
     text-decoration: none;
